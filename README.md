@@ -90,7 +90,8 @@ outputs = generator(prompt, max_length=100, do_sample=True, temperature=0.8, top
 for i, out in enumerate(outputs, 1):
     print(f"\n=== Sample {i} ===\n{out['generated_text']}\n")
 
-###Citation
+---
+## Citation
 
 If you use this model in your work, please cite it as:
 
@@ -101,7 +102,10 @@ If you use this model in your work, please cite it as:
   year    = {2025},
   url     = {https://huggingface.co/abrhaley/gpt2-tigrinya-lora}
 }
+---
 
 ### APA format:
 
 Abrhaley. (2025). GPT-2 Tigrinya LoRA Fine-Tuned. https://github.com/abrhaleyarefaine1997/gpt2-tigrinya-lora
+
+---
