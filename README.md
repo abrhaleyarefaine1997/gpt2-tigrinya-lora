@@ -86,3 +86,11 @@ generator = pipeline("text-generation", model=model, tokenizer=tokenizer)
 
 prompt = "ኣብ ኣዲስ ኣበባ"
 print(generator(prompt, max_length=100, do_sample=True))
+
+@misc{abrhaley2025gpt2tigrinya,
+  title   = {GPT-2 Tigrinya LoRA Fine-Tuned},
+  author  = {Abrhaley},
+  year    = {2025},
+  url     = {https://huggingface.co/abrhaley/gpt2-tigrinya-lora}
+}
+
