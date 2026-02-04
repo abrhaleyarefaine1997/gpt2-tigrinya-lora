@@ -15,7 +15,7 @@ language:
 new_version: 1.0
 ---
 
-# GPT-2 Tigrinya (LoRA Fine-Tuned)
+# Low-Resource Tigrinya Language Modeling with LoRA-Fine-Tuned GPT-2
 
 ## Model Details
 
